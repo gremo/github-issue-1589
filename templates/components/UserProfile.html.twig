@@ -1,0 +1,22 @@
+<div
+    {{ attributes }}
+>
+    {% if user1 %}
+        <p>{{ user1.firstName }} {{ user1.lastName }}</p>
+    {% endif %}
+
+    <button data-action="live#action" data-live-action-param="fetchUser1">
+        Fetch user 1
+    </button>
+
+    <hr>
+
+    {% if user2 %}
+        <p>{{ user2.fullName }}</p>
+    {% endif %}
+
+    <button data-action="live#action" data-live-action-param="fetchUser2">
+        Fetch user 2
+    </button>
+
+</div>
