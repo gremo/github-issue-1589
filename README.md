@@ -1,6 +1,6 @@
 ## GitHub issue #1589
 
-<https://github.com/gremo/github-issue-1589>
+<[https://github.com/symfony/ux/issues/1589](https://github.com/symfony/ux/issues/1589)>
 
 1. Clone this repository
 2. Open the project with Visual Studio Code
